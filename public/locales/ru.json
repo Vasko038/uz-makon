@@ -1,0 +1,110 @@
+{
+  "landing": {
+    "header": {
+      "pages": {
+        "about": "О нас",
+        "projects": "Проекты",
+        "news": "Новости",
+        "contact-us": "Контакты"
+      }
+    },
+    "banner": {
+      "callMe": "Позвоните нам",
+      "opportunity": "Вы используете новые возможности?",
+      "invetment": "Инвестиции в нас"
+    },
+    "news": {
+      "title": "Новости",
+      "button": "Все новости"
+    },
+    "residentalComplex": {
+      "title": "Все жилые комплексы",
+      "filter": {
+        "complex": "Выберите жилой комплекс",
+        "rooms": "Выберите количество комнат",
+        "area": "Введите площадь",
+        "district": "Выберите округ или район",
+        "mapButton": "На карте",
+        "submitButton": "Показать квартиры"
+      },
+      "button": "Посмотреть все"
+    },
+    "advantages": {
+      "title": "Преимущества"
+    },
+    "5simple": {
+      "title": "5 простых шагов для покупки квартиры"
+    },
+    "newProjects": {
+      "title": "Новые проекты",
+      "button": "Посмотреть все"
+    },
+    "adventageDetails": {
+      "title": "Преимущества в деталях",
+      "architecture": "Архитектура"
+    },
+    "parters": {
+      "title": "Партнеры"
+    },
+    "footer": {
+      "about": {
+        "title": "О компании",
+        "desc": "За годы своего существования компания AKFA зарекомендовала себя как надежный и ответственный производитель."
+      },
+      "services": {
+        "title": "Услуги",
+        "items": [
+          "Светопропускающие конструкции",
+          "Строительный сектор",
+          "Решения для комфорта"
+        ]
+      },
+      "usefulLinks": {
+        "title": "Полезные ссылки",
+        "items": ["О компании", "Наши работы", "Новости", "Карьера"]
+      },
+      "contactDetails": {
+        "title": "Контактные данные"
+      }
+    }
+  },
+  "news": {
+    "all": "Все",
+    "news": "Новости",
+    "stock": "Акции"
+  },
+  "contacts": {
+    "title": "Контакты",
+    "adress": {
+      "title": "Мы расположены по адресу"
+    },
+    "workTime": {
+      "title": "Время работы",
+      "subtitle": "Отдел продаж:"
+    },
+    "callCenter": {
+      "title": "Круглосуточный кол-центр"
+    },
+    "askQuestion": { "title": "задать вопрос", "subtitle": "мэнэджру в чате" },
+    "postalAddresses": {
+      "title": "Postal addresses",
+      "generalInfo": "Общая информация",
+      "feedback": "Обратная связь",
+      "supplyDepartment": "Отдел снабжения",
+      "marketingDepartment": "Отдел маркетинга",
+      "salesDepartment": "Отдел продаж",
+      "vacancies": "Вакансии"
+    },
+    "socialNetworks": {
+      "title": "мы в социальных сетях",
+      "subtitle": "подписывайтесь на наши каналы"
+    }
+  },
+  "complex": {
+    "apartmentAndPrices": { "title": "квартире и цены в блоке 2." },
+    "entranceGroup": { "title": "входное группе." },
+    "map": {
+      "title": "карта"
+    }
+  }
+}

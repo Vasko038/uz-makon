@@ -1,0 +1,108 @@
+{
+  "landing": {
+    "header": {
+      "pages": {
+        "about": "Biz haqimizda",
+        "projects": "Loyihalar",
+        "news": "Yangiliklar",
+        "contact-us": "Aloqa"
+      }
+    },
+    "banner": {
+      "callMe": "Biz bilan bog'laning",
+      "opportunity": "Yangi imkoniyatlardan foydalanayotganmisizmi?",
+      "invetment": "Bizga sarmoya kiritish"
+    },
+    "news": {
+      "title": "Yangiliklar",
+      "button": "Barcha yangiliklar"
+    },
+    "residentalComplex": {
+      "title": "Barcha yashash komplekslari",
+      "filter": {
+        "complex": "Yashash kompleksini tanlang",
+        "rooms": "Xonalar sonini tanlang",
+        "area": "Maydonni kiriting",
+        "district": "Okrug yoki rayonni tanlang",
+        "mapButton": "Xaritada",
+        "submitButton": "Kvartiralarni ko'rsatish"
+      },
+      "button": "Barchasini ko'rish"
+    },
+    "advantages": {
+      "title": "Afzalliklar"
+    },
+    "5simple": {
+      "title": "Kvartira sotib olish uchun 5 oddiy qadam"
+    },
+    "newProjects": {
+      "title": "Yangi loyihalar",
+      "button": "Barchasini ko'rish"
+    },
+    "adventageDetails": {
+      "title": "Afzalliklar tafsilotlari",
+      "architecture": "Arxitektura"
+    },
+    "parters": {
+      "title": "Hamkorlar"
+    },
+    "footer": {
+      "about": {
+        "title": "Kompaniya haqida",
+        "desc": "AKFA kompaniyasi o‘z faoliyati davomida ishonchli va mas'uliyatli ishlab chiqaruvchi sifatida o‘zini namoyon qilgan."
+      },
+      "services": {
+        "title": "Xizmatlar",
+        "items": [
+          "Yorug‘lik o‘tkazuvchi konstruksiyalar",
+          "Qurilish sohasi",
+          "Qulaylik yechimlari"
+        ]
+      },
+      "usefulLinks": {
+        "title": "Foydali havolalar",
+        "items": [
+          "Kompaniya haqida",
+          "Bizning ishlarimiz",
+          "Yangiliklar",
+          "Karyera"
+        ]
+      },
+      "contactDetails": {
+        "title": "Kontakt ma'lumotlari"
+      }
+    }
+  },
+  "news": {
+    "all": "Barchasi",
+    "news": "Yangiliklar",
+    "stock": "Aksiya"
+  },
+  "contacts": {
+    "title": "Aloqalar",
+    "adress": {
+      "title": "Biz manzilda joylashganmiz"
+    },
+    "workTime": {
+      "title": "Ish vaqti",
+      "subtitle": "Sotuvlar bo'limi:"
+    },
+    "callCenter": {
+      "title": "24/7 kol-centr"
+    },
+    "askQuestion": { "title": "savol berish", "subtitle": "menedjerga chatda" },
+    "postalAddresses": {
+      "title": "Pochta manzillari",
+      "generalInfo": "Umumiy ma'lumot",
+      "feedback": "Fikr-mulohazalar",
+      "supplyDepartment": "Ta'minot bo'limi",
+      "marketingDepartment": "Marketing bo'limi",
+      "salesDepartment": "Sotuvlar bo'limi",
+      "vacancies": "Vakanisiyalar"
+    },
+    "socialNetworks": {
+      "title": "Biz ijtimoiy tarmoqlarda",
+      "subtitle": "Kanalimizga obuna bo'ling"
+    }
+  }
+}

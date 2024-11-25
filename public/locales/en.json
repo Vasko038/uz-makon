@@ -1,0 +1,106 @@
+{
+  "landing": {
+    "header": {
+      "pages": {
+        "about": "About",
+        "projects": "Projects",
+        "news": "News",
+        "contact-us": "Contact us"
+      }
+    },
+    "banner": {
+      "callMe": "Call us",
+      "invetment": "Investment in us"
+    },
+    "news": {
+      "title": "News",
+      "opportunity": "Are you taking advantage of new opportunities?",
+      "button": "All news"
+    },
+    "residentalComplex": {
+      "title": "All residential complexes",
+      "filter": {
+        "complex": "Select residential complex",
+        "rooms": "Select number of rooms",
+        "area": "Enter area",
+        "district": "Select district or region",
+        "mapButton": "On the map",
+        "submitButton": "Show apartments"
+      },
+      "button": "See All"
+    },
+    "advantages": {
+      "title": "Advantages"
+    },
+    "5simple": {
+      "title": "Kvartira sotib olish uchun 5 oddiy qadam."
+    },
+    "newProjects": {
+      "title": "New Projects",
+      "button": "See All"
+    },
+    "adventageDetails": {
+      "title": "Advantage in details",
+      "architecture": "Architecture"
+    },
+    "parters": {
+      "title": "Partners"
+    },
+    "footer": {
+      "about": {
+        "title": "About the company",
+        "desc": "Over the years of its existence, the company AKFA has established itself as a reliable and responsible manufacturer."
+      },
+      "services": {
+        "title": "Services",
+        "items": [
+          "Light-transmitting constructions",
+          "Construction sector",
+          "Comfort solutions"
+        ]
+      },
+      "usefulLinks": {
+        "title": "Useful links",
+        "items": ["About the company", "Our works", "News", "Career"]
+      },
+      "contactDetails": {
+        "title": "Contact details"
+      }
+    }
+  },
+  "news": {
+    "all": "All",
+    "news": "News",
+    "stock": "Stock"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "adress": {
+      "title": "We are located at"
+    },
+    "workTime": {
+      "title": "Working Hours",
+      "subtitle": "Sales Department:"
+    },
+    "callCenter": {
+      "title": "24/7 Call Center"
+    },
+    "askQuestion": {
+      "title": "Ask a question",
+      "subtitle": "to the manager in chat"
+    },
+    "postalAddresses": {
+      "title": "Postal Addresses",
+      "generalInfo": "General Information",
+      "feedback": "Feedback",
+      "supplyDepartment": "Supply Department",
+      "marketingDepartment": "Marketing Department",
+      "salesDepartment": "Sales Department",
+      "vacancies": "Vacancies"
+    },
+    "socialNetworks": {
+      "title": "We are on social media",
+      "subtitle": "Follow our channels"
+    }
+  }
+}
