@@ -10,7 +10,6 @@ import { AiOutlineYoutube } from "react-icons/ai";
 import { socialMediaLink } from "@src/constants";
 import { FaTelegramPlane } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
-import { useTransition } from "react";
 
 const cardClass = "p-4 shadow-xl";
 const TitleClass = "!text-[18px] !font-bold ";
@@ -134,14 +133,17 @@ function AskQuestion({ className }: { className?: string }) {
   );
 }
 
-function chunkArray(array, chunkSize) {
+function chunkArray(
+  array: { relevant: string; title: string; link: string }[],
+  chunkSize: number
+) {
   const chunks = [];
   for (let i = 0; i < array.length; i += chunkSize) {
     chunks.push(array.slice(i, i + chunkSize));
   }
   return chunks;
 }
-const emailAdress = [
+const emailAdress: { relevant: string; title: string; link: string }[] = [
   { relevant: "generalInfo", title: "info@gh.uz", link: "info@gh.uz" },
   { relevant: "feedback", title: "info@gh.uz", link: "info@gh.uz" },
   { relevant: "supplyDepartment", title: "info@gh.uz", link: "info@gh.uz" },
