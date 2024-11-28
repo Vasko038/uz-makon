@@ -38,7 +38,7 @@ function Cardinate() {
           </Marker>
           <Card className="absolute hidden md:block  bottom-3 left-3 z-[500] w-[300px]" />
         </MapContainer>
-        <Card className="!block  md:hidden my-[40px]" />
+        <Card className="!block  md:!hidden my-[40px]" />
       </Container>
     </div>
   );
