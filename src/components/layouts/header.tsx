@@ -1,7 +1,7 @@
 import Container from "@components/container";
 import { phoneNumber } from "@src/constants";
 import { Divider, Space, Button, Dropdown, Drawer } from "antd";
-
+import logo from "@assets/logo.jpg";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Paragraph } from "@components/typography";
 import { FaPhone } from "react-icons/fa6";
@@ -46,7 +46,7 @@ function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-[40] bg-white">
+      <header className="sticky top-0 !z-[40] bg-white">
         <Container>
           <div className="flex lg:justify-between lg:w-[90%] bg-white mx-auto">
             <div className=" hidden lg:flex md:justify-between lg:justify-around p-4 py-3  md:w-[46%] !bg-main">
@@ -61,10 +61,10 @@ function Header() {
               ))}
             </div>
             <div
-              className="w-[100px]"
+              className=" !h-[70px] cursor-pointer"
               onClick={() => navigate("/" + i18n.language)}
             >
-              <img className="w-full h-full" src="" alt="" />
+              <img className="w-full h-full" src={logo} alt="not img" />
             </div>
             <div className="flex p-4  py-3 flex-1 sm:justify-between lg:justify-around justify-end sm:gap-5 md:gap-0 items-center  lg:w-[46%] bg-main">
               <div className="hidden gap-4 sm:flex !text-white">
@@ -84,6 +84,7 @@ function Header() {
                       key: item.key,
                       label: (
                         <Space
+                          className="w-full"
                           onClick={async () => {
                             await i18n.changeLanguage(item.key);
                             navigate(navigateChangeLang(item.key), {
@@ -127,7 +128,11 @@ function Header() {
           <Divider className="!mt-0" />
         </Container>
       </header>
-      <Drawer onClose={() => setSearchParams({})} open={isOpenDrawer}>
+      <Drawer
+        width={300}
+        onClose={() => setSearchParams({})}
+        open={isOpenDrawer}
+      >
         <div className="flex flex-col gap-3">
           {pages.map((item) => (
             <Link

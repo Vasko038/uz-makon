@@ -2,7 +2,9 @@ import Container from "@components/container";
 import ProjectCard from "@components/projectCard";
 import { Title } from "@components/typography";
 import { useTranslation } from "react-i18next";
-
+import img1 from "@assets/build-1.jpg";
+import img2 from "@assets/build-2.jpg";
+import img3 from "@assets/build-3.jpg";
 function Projects() {
   const { t } = useTranslation("", { keyPrefix: "landing.header" });
   return (
@@ -17,28 +19,28 @@ function Projects() {
             key={1}
             title="asdasd"
             subtitle={"dasdsad"}
-            image={"https://i.ytimg.com/vi/-uKT5MSQUCM/maxresdefault.jpg"}
+            image={img1}
             status={"sd"}
           />
           <ProjectCard
             key={1}
             title="asdasd"
             subtitle={"dasdsad"}
-            image={"https://i.ytimg.com/vi/-uKT5MSQUCM/maxresdefault.jpg"}
+            image={img2}
             status={"sd"}
           />
           <ProjectCard
             key={1}
             title="asdasd"
             subtitle={"dasdsad"}
-            image={"https://i.ytimg.com/vi/-uKT5MSQUCM/maxresdefault.jpg"}
+            image={img3}
             status={"sd"}
           />
           <ProjectCard
             key={1}
             title="asdasd"
             subtitle={"dasdsad"}
-            image={"https://i.ytimg.com/vi/-uKT5MSQUCM/maxresdefault.jpg"}
+            image={img1}
             status={"sd"}
           />
         </div>

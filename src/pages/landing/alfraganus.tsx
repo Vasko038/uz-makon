@@ -1,17 +1,18 @@
 import Container from "@components/container";
 import { Paragraph, Title } from "@components/typography";
 import { Button } from "antd";
+import img from "@assets/build-1.jpg";
 
 function Alfraganus() {
   return (
     <div className="alfragunus_l mb-[50px]">
       <Container>
         <div className="relative py-[40px]">
-          <div className="!z-10 grid gir-cols-1 lg:grid-cols-2 p-4  backdrop-blur-xl  bg-opacity-25  bg-blue-300">
+          <div className="!z-10 grid grid-cols-1 lg:grid-cols-2 p-4 py-[20px]  backdrop-blur-xl  bg-opacity-25  bg-blue-300">
             <div>
               <img
-                className="w-full"
-                src="https://yandex.ru/images/search?text=car&img_url=http%3A%2F%2Ftop-tuning.ru%2Fupload%2Fimages%2Fnews%2F103102%2Fczinger_21c_hypercar_1.jpg&pos=4&rpt=simage&stype=image&lr=189646&parent-reqid=1732378202401698-11370739172229761462-balancer-l7leveler-kubr-yp-vla-258-BAL&source=serp"
+                className="lg:w-[90%] mx-auto w-full object-cover aspect-[3/1.7] "
+                src={img}
                 alt=""
               />
             </div>

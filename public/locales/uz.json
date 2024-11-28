@@ -104,5 +104,10 @@
       "title": "Biz ijtimoiy tarmoqlarda",
       "subtitle": "Kanalimizga obuna bo'ling"
     }
+  },
+  "complex": {
+    "apartmentAndPrices": {
+      "title": "Kvartira va narxlar"
+    }
   }
 }

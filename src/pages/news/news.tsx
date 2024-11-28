@@ -2,7 +2,9 @@ import Container from "@components/container";
 import { Paragraph, Title } from "@components/typography";
 import { Button, Space } from "antd";
 import { useTranslation } from "react-i18next";
-
+import img1 from "@assets/build-1.jpg";
+import img2 from "@assets/build-2.jpg";
+import img3 from "@assets/build-3.jpg";
 function News() {
   const { t } = useTranslation("", { keyPrefix: "news" });
   return (
@@ -47,32 +49,32 @@ function News() {
 const defaultItems = [
   {
     key: 1,
-    img: "https://avatars.mds.yandex.net/i?id=d1402c53b4a2f5df60ba2d90a83a6057d6f7b556-8497452-images-thumbs&n=13",
+    img: img1,
     title: "sdsadsdasd",
   },
   {
     key: 2,
-    img: "https://avatars.mds.yandex.net/i?id=33b2fead5a0e15de13b3db93a8cc678bc89f159e-4881188-images-thumbs&n=13",
+    img: img2,
     title: "sdsadsdasd",
   },
   {
     key: 3,
-    img: "https://avatars.mds.yandex.net/i?id=d1402c53b4a2f5df60ba2d90a83a6057d6f7b556-8497452-images-thumbs&n=13",
+    img: img1,
     title: "sdsadsdasd",
   },
   {
     key: 4,
-    img: "https://avatars.mds.yandex.net/i?id=bd941ef9ec3b89b8727f46a4eb3271f61b1fd615-5229005-images-thumbs&n=13",
+    img: img3,
     title: "sdsadsdasd",
   },
   {
     key: 5,
-    img: "https://avatars.mds.yandex.net/i?id=33b2fead5a0e15de13b3db93a8cc678bc89f159e-4881188-images-thumbs&n=13",
+    img: img2,
     title: "sdsadsdasd",
   },
   {
     key: 6,
-    img: "https://avatars.mds.yandex.net/i?id=f562c1313b13f629f8c57c4f161349f8cca14da9-5667979-images-thumbs&n=13",
+    img: img1,
     title: "sdsadsdasd",
   },
 ];

@@ -8,6 +8,8 @@ import "swiper/css/navigation";
 import "swiper/css";
 import "swiper/css/pagination";
 import { useTranslation } from "react-i18next";
+import { FaCar } from "react-icons/fa";
+
 function ApartmentsAndPrices() {
   const { t } = useTranslation("", { keyPrefix: "complex.apartmentAndPrices" });
   return (
@@ -170,14 +172,14 @@ function ApartmentsAndPrices() {
             </Swiper>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-4">
           {compforts.map((item) => (
             <div key={item.key} className="flex gap-4">
-              <div className="w-[60px] rounded-full h-[60px] !bg-main flex items-center justify-center">
+              <div className="!w-[60px]  flex-shrink-0 rounded-full !h-[60px] text-[20px] !aspect-square text-white !bg-main flex items-center justify-center">
                 {item.icon}
               </div>
-              <div>
-                <Title className="!text-[30px] !mb-0">{item.title}</Title>
+              <div className="">
+                <Title className="!text-[20px] !mb-2">{item.title}</Title>
                 <Paragraph className="!m-0">{item.subtitle}</Paragraph>
               </div>
             </div>
@@ -188,10 +190,30 @@ function ApartmentsAndPrices() {
   );
 }
 const compforts = [
-  { key: 1, title: "5 minut ", subtitle: "do blijaysheko parka", icon: "" },
-  { key: 2, title: "", subtitle: "", icon: "" },
-  { key: 3, title: "", subtitle: "", icon: "" },
-  { key: 4, title: "", subtitle: "", icon: "" },
+  {
+    key: 1,
+    title: "Elekt energiya",
+    subtitle: "Energiya samaradorligi bo'yicha eng qulay yangi uylar ",
+    icon: <FaCar />,
+  },
+  {
+    key: 2,
+    title: "Dam olish",
+    subtitle: "Yashash, ishlash va dam olish uchun qulay muhitga ega uylar",
+    icon: <FaCar />,
+  },
+  {
+    key: 3,
+    title: "Aqli hudud",
+    subtitle: "Yangi samarali va dinamik aqlli va raqamli hududlar",
+    icon: <FaCar />,
+  },
+  {
+    key: 4,
+    title: "toza ekolik",
+    subtitle: "Yangi uylar - toza ekologik va madaniy landshaftli",
+    icon: <FaCar />,
+  },
 ];
 
 export default ApartmentsAndPrices;

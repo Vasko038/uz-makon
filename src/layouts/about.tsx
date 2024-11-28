@@ -1,6 +1,8 @@
 import Container from "@components/container";
 import { Title } from "@components/typography";
-
+import img1 from "@assets/build-1.jpg";
+import img2 from "@assets/build-2.jpg";
+import img3 from "@assets/build-3.jpg";
 function About() {
   return (
     <>
@@ -21,7 +23,12 @@ function About() {
           </Title>
           <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             <li className="p-4 bg-white rounded-lg shadow-md">
-              <h3 className="mb-2 text-xl font-bold text-gray-800">
+              <img
+                src={img1}
+                className="w-full aspect-[3/1.8] object-cover rounded-lg"
+                alt="not img"
+              />
+              <h3 className="mt-3 mb-2 text-xl font-bold text-gray-800">
                 Uy Qurilishi
               </h3>
               <p className="text-gray-600">
@@ -29,7 +36,12 @@ function About() {
               </p>
             </li>
             <li className="p-4 bg-white rounded-lg shadow-md">
-              <h3 className="mb-2 text-xl font-bold text-gray-800">
+              <img
+                src={img2}
+                className="w-full aspect-[3/1.8] object-cover rounded-lg"
+                alt="not img"
+              />
+              <h3 className="mt-3 mb-2 text-xl font-bold text-gray-800">
                 Ta'mirlash
               </h3>
               <p className="text-gray-600">
@@ -37,7 +49,12 @@ function About() {
               </p>
             </li>
             <li className="p-4 bg-white rounded-lg shadow-md">
-              <h3 className="mb-2 text-xl font-bold text-gray-800">
+              <img
+                src={img3}
+                className="w-full aspect-[3/1.8] object-cover rounded-lg"
+                alt="not img"
+              />
+              <h3 className="mt-3 mb-2 text-xl font-bold text-gray-800">
                 Landshaft Dizayn
               </h3>
               <p className="text-gray-600">

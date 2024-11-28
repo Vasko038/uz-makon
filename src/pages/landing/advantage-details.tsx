@@ -6,6 +6,11 @@ import { SwiperSlide, Swiper } from "swiper/react";
 import "swiper/css/navigation";
 import "swiper/css";
 import "swiper/css/pagination";
+import img1 from "@assets/build-1.jpg";
+import img2 from "@assets/build-2.jpg";
+import img3 from "@assets/build-3.jpg";
+import { GiEcology } from "react-icons/gi";
+
 import { useTranslation } from "react-i18next";
 function AdvantageDetails() {
   const { t } = useTranslation("", { keyPrefix: "landing.adventageDetails" });
@@ -26,29 +31,29 @@ function AdvantageDetails() {
           >
             <SwiperSlide className="w-full">
               <img
-                className="w-full"
-                src="https://avatars.mds.yandex.net/i?id=e7ff1934099bf189cc3c041bd4c75a1553ded0bc-3979623-images-thumbs&n=13"
-                alt=""
+                className="w-full object-cover aspect-[3/1.7]"
+                src={img1}
+                alt="not img"
               />
             </SwiperSlide>
             <SwiperSlide className="w-full">
               <img
-                className="w-full"
-                src="https://avatars.mds.yandex.net/i?id=e7ff1934099bf189cc3c041bd4c75a1553ded0bc-3979623-images-thumbs&n=13"
-                alt=""
+                className="w-full object-cover aspect-[3/1.7]"
+                src={img2}
+                alt="not img"
               />
             </SwiperSlide>
             <SwiperSlide className="w-full">
               <img
-                className="w-full"
-                src="https://avatars.mds.yandex.net/i?id=e7ff1934099bf189cc3c041bd4c75a1553ded0bc-3979623-images-thumbs&n=13"
-                alt=""
+                className="w-full object-cover aspect-[3/1.7]"
+                src={img3}
+                alt="not img"
               />
             </SwiperSlide>
           </Swiper>
 
           <div>
-            <ul className="space-y-5">
+            <ul className="space-y-3">
               {ulData.map((item) => (
                 <li key={item.key} className="flex items-start gap-5">
                   <FaDiamond className="text-yellow-500" />
@@ -58,11 +63,19 @@ function AdvantageDetails() {
             </ul>
           </div>
         </div>
-        <div className="grid grid-cols-4 gap-5 md:grid-cols-8">
+        <div className="grid items-start grid-cols-4 gap-5 md:grid-cols-8">
           {advanetages.map((item) => (
-            <div key={item.key} className="flex flex-col justify-center">
-              <img src={item.icon} />
-              <Paragraph className="!text-main">{item.title}</Paragraph>
+            <div
+              key={item.key}
+              className="flex flex-col items-center justify-center gap-2"
+            >
+              <div className="!h-[80px] !w-[80px] text-[30px] text-white bg-main rounded-full flex justify-center items-center">
+                {item.icon}
+              </div>
+
+              <Paragraph className="!text-main text-center">
+                {item.title}
+              </Paragraph>
             </div>
           ))}
         </div>
@@ -71,23 +84,30 @@ function AdvantageDetails() {
   );
 }
 const ulData = [
-  { key: 1, title: "dsad asd asdsad sd sadsad" },
-  { key: 2, title: "dsad asd asdsad sd sadsad" },
-  { key: 3, title: "dsad asd asdsad sd sadsad" },
-  { key: 4, title: "dsad asd asdsad sd sadsad" },
-  { key: 5, title: "dsad asd asdsad sd sadsad" },
-  { key: 6, title: "dsad asd asdsad sd sadsad" },
+  { key: 1, title: "Qulay va ajoyib imkoniyatlar ega uylar" },
+  { key: 2, title: "Eko xududdagi  aqilli shahar qurilishi" },
+  { key: 3, title: "Keng imkoniyatlarga ega uylar barpo etish" },
+  { key: 4, title: "Energiya samaradorligi bo'yicha eng qulay yangi uylar " },
+  {
+    key: 5,
+    title: "Yashash, ishlash va dam olish uchun qulay muhitga ega uylar",
+  },
+  { key: 6, title: "Yangi samarali va dinamik aqlli va raqamli hududlar" },
 ];
 
 const advanetages = [
-  { key: 1, title: "asd", icon: "" },
-  { key: 2, title: "asdasd", icon: "" },
-  { key: 3, title: "asdasd", icon: "" },
-  { key: 4, title: "asdasd", icon: "" },
-  { key: 5, title: "dsadsada", icon: "" },
-  { key: 6, title: "sadasda", icon: "" },
-  { key: 7, title: "asdasdas", icon: "" },
-  { key: 8, title: "asdasdsad", icon: "" },
+  { key: 1, title: "ekologik toza muhit", icon: <GiEcology /> },
+  { key: 2, title: "bolalar maydonchasi", icon: <GiEcology /> },
+  { key: 3, title: "yashil bog'", icon: <GiEcology /> },
+  {
+    key: 4,
+    title: "yaqin masofadagi do'kon va restoranlar",
+    icon: <GiEcology />,
+  },
+  { key: 5, title: "avtomoyka", icon: <GiEcology /> },
+  { key: 6, title: "24/7  kuzatuv kameralari", icon: <GiEcology /> },
+  { key: 7, title: "parkovka", icon: <GiEcology /> },
+  { key: 8, title: "keng turar joylar", icon: <GiEcology /> },
 ];
 
 export default AdvantageDetails;

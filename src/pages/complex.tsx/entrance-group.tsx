@@ -7,6 +7,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css";
+import img1 from "@assets/build-1.jpg";
+import img2 from "@assets/build-2.jpg";
+import img3 from "@assets/build-3.jpg";
+import { FaCar } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 function EntranceGroup() {
   const { t } = useTranslation("", { keyPrefix: "complex.entranceGroup" });
@@ -29,13 +33,41 @@ function EntranceGroup() {
           >
             <Button icon={<GrFormNext />} className="swiper-button-next" />
             <Button icon={<GrFormPrevious />} className="swiper-button-prev" />
-            <SwiperSlide>asd</SwiperSlide>
-            <SwiperSlide>sada</SwiperSlide>
-            <SwiperSlide>sad</SwiperSlide>
-            <SwiperSlide>asd</SwiperSlide>
-            <SwiperSlide>asd</SwiperSlide>
-            <SwiperSlide>asd</SwiperSlide>
-            <SwiperSlide>sad</SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={img1}
+                className="object-cover w-full h-full"
+                alt="not img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={img2}
+                className="object-cover w-full h-full"
+                alt="not img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={img3}
+                className="object-cover w-full h-full"
+                alt="not img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={img1}
+                className="object-cover w-full h-full"
+                alt="not img"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={img2}
+                className="object-cover w-full h-full"
+                alt="not img"
+              />
+            </SwiperSlide>
           </Swiper>
           <div className="absolute w-full  -bottom-7  z-[20] ">
             <Button
@@ -43,18 +75,18 @@ function EntranceGroup() {
               shape="round"
               className=" !w-[100px] block  mx-auto "
             >
-              aasdds
+              boshlash
             </Button>
           </div>
         </div>
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {compforts.map((item) => (
             <div key={item.key} className="flex gap-4">
-              <div className="w-[60px] rounded-full h-[60px] !bg-main flex items-center justify-center">
+              <div className="!w-[60px]  flex-shrink-0 rounded-full !h-[60px] text-[20px] !aspect-square text-white !bg-main flex items-center justify-center">
                 {item.icon}
               </div>
-              <div>
-                <Title className="!text-[30px] !mb-0">{item.title}</Title>
+              <div className="">
+                <Title className="!text-[20px] !mb-2">{item.title}</Title>
                 <Paragraph className="!m-0">{item.subtitle}</Paragraph>
               </div>
             </div>
@@ -65,10 +97,30 @@ function EntranceGroup() {
   );
 }
 const compforts = [
-  { key: 1, title: "5 minut ", subtitle: "do blijaysheko parka", icon: "" },
-  { key: 2, title: "", subtitle: "", icon: "" },
-  { key: 3, title: "", subtitle: "", icon: "" },
-  { key: 4, title: "", subtitle: "", icon: "" },
+  {
+    key: 1,
+    title: "Elekt energiya",
+    subtitle: "Energiya samaradorligi bo'yicha eng qulay yangi uylar ",
+    icon: <FaCar />,
+  },
+  {
+    key: 2,
+    title: "Dam olish",
+    subtitle: "Yashash, ishlash va dam olish uchun qulay muhitga ega uylar",
+    icon: <FaCar />,
+  },
+  {
+    key: 3,
+    title: "Aqli hudud",
+    subtitle: "Yangi samarali va dinamik aqlli va raqamli hududlar",
+    icon: <FaCar />,
+  },
+  {
+    key: 4,
+    title: "toza ekolik",
+    subtitle: "Yangi uylar - toza ekologik va madaniy landshaftli",
+    icon: <FaCar />,
+  },
 ];
 
 export default EntranceGroup;
