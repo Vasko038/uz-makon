@@ -102,5 +102,12 @@
       "title": "We are on social media",
       "subtitle": "Follow our channels"
     }
+  },
+  "complex": {
+    "apartmentAndPrices": { "title": "Apartments and prices in block 2." },
+    "entranceGroup": { "title": "In the entrance group." },
+    "map": {
+      "title": "Map"
+    }
   }
 }

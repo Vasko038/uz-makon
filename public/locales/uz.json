@@ -106,8 +106,10 @@
     }
   },
   "complex": {
-    "apartmentAndPrices": {
-      "title": "Kvartira va narxlar"
+    "apartmentAndPrices": { "title": "Bino va narxlar 2-blokda." },
+    "entranceGroup": { "title": "Kirish guruhida." },
+    "map": {
+      "title": "Xarita"
     }
   }
 }
